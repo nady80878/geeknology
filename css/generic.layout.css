@@ -1,0 +1,144 @@
+*{padding:0; margin: 0;}
+body{
+    width:100%;
+    margin: 0 auto;
+}
+
+
+.article{
+    padding: 10px;
+    text-align: center;
+    line-height: 1.5em;
+    color: blanchedalmond;
+    width: 85%;
+    margin-top: 0;
+    min-width: 625px;
+    font-family: cursive, Helvatica,Arial , Opensans;
+    font-size: 15px;
+    margin-bottom: 60px;
+    background-color: rgba(0,0,0,.5);
+    border-left: 10px solid #0ab3f6;
+    border-bottom: 10px solid #0ab3f6;
+    border-right: 10px solid #0ab3f6;
+    border-radius: 10px;
+    box-shadow: 7px 7px 10px rgba(0,0,0,.6);
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    display: block;
+}
+.course-logo{
+    text-align: center;
+    width: 62%;
+    height: 200px;
+    position: relative;
+    bottom: 15px;
+    border-radius: 8px;
+}
+.article-header > h2{
+    position: relative;
+    bottom: 50px;
+    right: 60px;
+    width:100%;
+    padding: 30px 60px;
+    background: url(../pics/header-background.png) no-repeat;
+    background-position: center;
+}
+.course-description{
+    text-align: justify;
+    max-height: 130px;
+    overflow: hidden;
+    transition: all .5s ease-in;
+    -webkit- transition: all .5s ease-in-out;
+    -mos- transition: all .5s ease-in;
+    -ms- transition: all .5s ease-in;
+}
+
+.read-more{
+    position: absolute;
+}
+.course-read-more{
+    max-height: 1000px;
+}
+.video{
+    text-align: center;
+    margin: 30px auto;
+}
+.video-back , .video-next{
+    position: relative;
+    bottom: 20px;
+    cursor: pointer;
+}
+
+.video-back:hover , .video-next:hover{
+   transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -mos-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    cursor: hand;
+}
+
+.playlist{
+    text-align: center;
+    border:2px solid white;
+    margin: 5px auto;
+    overflow-y: scroll; 
+    display: block;
+    width: 80%;
+    height: 475px;
+    border-radius: 5px;
+}
+.playlist::-webkit-scrollbar {
+      width: 0;
+      border-radius: 5px;
+      transition: width .5s ease-in;
+      -webkit-transition: width 1s ease-in;
+} 
+
+.playlist::-webkit-scrollbar-track {
+      background-color: rgba(0,0,0,.1);
+      border-radius: 5px;
+
+}
+
+.playlist::-webkit-scrollbar-thumb {
+    background-color: rgb(98,220,74);
+    border-radius: 5px;
+}
+
+.playlist::-webkit-scrollbar-button {
+      display: none;
+}
+
+.playlist::-webkit-scrollbar-corner {
+      background-color: #e3e3e3;
+    border-radius: 10px;
+}
+
+.playlist-div:hover > .playlist::-webkit-scrollbar {
+      width: 10px;
+}
+
+.video-link{
+    color: blanchedalmond;
+    font-family: cursive,Opensans ,arial;
+    font-size: 15px;
+    padding:68px;
+    display:block;
+    word-wrap: normal;
+    background-color: rgba(109,107,112,.5);
+    transition: all .5s ease-in-out;
+    -webkit- transition: all .5s ease-in-out;
+    -mos- transition: all .5s ease-in-out;
+    -ms- transition: all .5s ease-in-out;
+}
+.video-link:hover{
+    background-color: rgba(0,0,0,.4);
+    box-shadow: 3px 3px 8px 5px rgba(0,0,0,.6) inset;
+}
+.video-clicked{
+    background-color: rgba(0,0,0,.4);
+    box-shadow: 3px 3px 8px 5px rgba(0,0,0,.6) inset; 
+}
+
+
+
